@@ -22,4 +22,6 @@ jobs:
         cd build
         cmake ../
         make
+    - name: test-unitaires
+      run: ./masuperlib-test
 
